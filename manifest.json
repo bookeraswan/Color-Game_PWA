@@ -1,0 +1,13 @@
+{
+  "name": "The Great RGB color game",
+  "short_name": "Color Game",
+  "icons": [{
+      "src": "images/icon.png",
+      "sizes": "144x144 64x64 32x32 24x24 20x20 16x16",
+      "type": "image/png"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "rgb(65, 158, 136)",
+    "theme_color": "rgb(65, 158, 136)"
+}

@@ -1,0 +1,73 @@
+body{
+  background: #000 url("images/ColorGameIMG.png")no-repeat fixed center;
+}
+p{
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
+.Instructions{
+  max-width: 600px;
+  margin-top: 100px;
+  background-color: #bbb8;
+}
+strong{
+  color: #600;
+}
+.signature{
+  text-align: center;
+  font-family:"Bilbo Swash Caps";
+  font-size: 50px;
+}
+.thankyou{
+  text-align: center;
+}
+.pla{
+  text-decoration: none;
+  color: #0000ff;
+  width: auto;
+  height: auto;
+}
+.play:hover{
+  background-color: #400040;
+}
+.play{
+  text-align: center;
+  background-color: #730370;
+  width: 40%;
+  margin: 0px auto;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+li{
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
+#blue{
+  background-color: rgb(0, 160, 240);
+}
+#pink{
+  background-color: rgb(255, 0, 255);
+}
+#yellow{
+  background-color: rgb(255, 230, 0);
+}
+#black{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+#white{
+  background-color: rgb(255, 255, 255);
+}
+#red{
+  color: #f00;
+}
+#green{
+  color: #0f0;
+}
+#yell{
+  color: #ff0;
+}
+#blu{
+  color: #05f;
+}

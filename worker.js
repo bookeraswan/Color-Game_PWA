@@ -1,11 +1,13 @@
 var cacheName = "Color Game v1";
 
 var filesToCache = [
-    "./ColorGuess.html",
+    "./",
+    "./offline.html",
     "./ColorGuess.css",
     "./ColorGuess.js",
     "./ColorGameInstructions.html",
     "./ColorGameInstructions.css",
+    "./images/ColorGameIMG.png",
 ];
 
 self.addEventListener("install", function(e){
@@ -17,6 +19,11 @@ self.addEventListener("install", function(e){
             return cache.addAll(filesToCache);
         })
     );
+    return self.skipWaiting();
+});
+
+self.addEventListener("activate", function(e){
+    self.clients.claim();
 });
 
 self.addEventListener("fetch", function(event){

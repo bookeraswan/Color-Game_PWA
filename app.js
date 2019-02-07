@@ -7,6 +7,6 @@ app.get("/", function(req, res) {
     res.sendFile("index.html");
 });
 
-app.listen(8000, process.env.IP, function(){
+app.listen(process.env.PORT, process.env.IP, function(){
     console.log("server started...");
 });

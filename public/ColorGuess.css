@@ -1,7 +1,7 @@
 body{
   background: #333;
   margin: 0;
-  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
 }
 h1{
   text-align: center;
@@ -18,7 +18,7 @@ h1{
   font-size: 200%;
 }
 #options{
-   background-color: #fff;
+   background-color: rgb(21, 141, 0);
    height: 52.5px;
    text-align: center;
 }

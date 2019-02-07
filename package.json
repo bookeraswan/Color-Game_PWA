@@ -1,0 +1,14 @@
+{
+  "name": "color-game",
+  "version": "1.0.0",
+  "description": "Color Game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Booker Robinson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
